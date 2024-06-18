@@ -100,12 +100,12 @@ public class TgBot  extends TelegramLongPollingBot {
 
     @Override
     public String getBotUsername() {
-        return "@dimasik_RPO_2_bot";
+        return "@BotMaksonchik";
     }
 
     @Override
     public String getBotToken() {
-        return "7042290899:AAFCAmPw4L5n2HGcoo1lKCo26M4nhUvkdSI";
+        return "7297368093:AAGsK-fOAva7mgPoO1v-Jia7_jLEDhlVKbY";
     }
 
     @Override
@@ -218,7 +218,7 @@ public class TgBot  extends TelegramLongPollingBot {
         String response = userName + ", Вы прошли тест и правильно выполнили " + percent + "% заданий!";
         if (percent >= 70) {
             System.out.println("Пользователь \"" + userName + "\" прошёл тест на " + percent + "%.");
-            return response + ".\nТеперь Вы можете связаться с заказчиком\nпо его имени в телеграмме - @D2616";
+            return response + ".\nТеперь Вы можете связаться с заказчиком\nпо его имени в телеграмме - @maxozaaavr";
         }
         System.out.println("Пользователь \"" + userName + "\" прошёл тест на " + percent + "%.");
         return response;
